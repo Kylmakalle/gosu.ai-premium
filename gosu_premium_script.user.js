@@ -3,9 +3,8 @@
 // @author   https://t.me/Kylmakalle
 // @include  https://gosu.ai/dota/analysis/match/*
 // @version  0.0.2
-// @downloadURL https://raw.githubusercontent.com/Kylmakalle/gosu.ai-premium/master/userscript.user.js
-// @updateURL https://raw.githubusercontent.com/Kylmakalle/gosu.ai-premium/master/userscript.user.js
-// @run-at   context-menu
+// @downloadURL https://raw.githubusercontent.com/Kylmakalle/gosu.ai-premium/master/gosu_premium_script.user.js
+// @updateURL https://raw.githubusercontent.com/Kylmakalle/gosu.ai-premium/master/gosu_premium_script.user.js
 // ==/UserScript==
 
 function getDivs(){
