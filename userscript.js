@@ -2,20 +2,19 @@
 // @name     Gosu.ai premium
 // @author   https://t.me/Kylmakalle
 // @include  https://gosu.ai/dota/analysis/match/*
-// @version  0.0.1
-// @downloadURL https://raw.githubusercontent.com/Kylmakalle/gosu.ai-premium/master/userscript.js
-// @updateURL https://raw.githubusercontent.com/Kylmakalle/gosu.ai-premium/master/userscript.js
+// @version  0.0.2
+// @downloadURL https://github.com/Kylmakalle/gosu.ai-premium/blob/master/userscript.js
+// @updateURL https://github.com/Kylmakalle/gosu.ai-premium/blob/master/userscript.js
 // @run-at   context-menu
 // ==/UserScript==
 
 function getDivs(){
-    return document.getElementsByClassName('premium__gap ng-star-inserted')
+    return Array.from(document.getElementsByClassName('premium__gap ng-star-inserted'))
+           .concat(Array.from(document.getElementsByClassName('advice__gap ng-star-inserted')))
 }
 
 let premiumDivs = getDivs();
-Array.from(premiumDivs)
-    .forEach(function(element) {
+premiumDivs.forEach(function(element) {
     console.log(element);
     element.remove();
 });
-
