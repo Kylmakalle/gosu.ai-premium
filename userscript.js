@@ -3,6 +3,8 @@
 // @author   https://t.me/Kylmakalle
 // @include  https://gosu.ai/dota/analysis/match/*
 // @version  0.0.1
+// @downloadURL https://github.com/Kylmakalle/gosu.ai-premium/blob/master/userscript.js
+// @updateURL https://github.com/Kylmakalle/gosu.ai-premium/blob/master/userscript.js
 // @run-at   context-menu
 // ==/UserScript==
 
