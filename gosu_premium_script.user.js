@@ -5,6 +5,7 @@
 // @version  0.0.2
 // @downloadURL https://raw.githubusercontent.com/Kylmakalle/gosu.ai-premium/master/gosu_premium_script.user.js
 // @updateURL https://raw.githubusercontent.com/Kylmakalle/gosu.ai-premium/master/gosu_premium_script.user.js
+// @run-at context-menu
 // ==/UserScript==
 
 function getDivs(){
